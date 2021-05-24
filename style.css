@@ -1,0 +1,12 @@
+/**
+ * css reset
+ */
+
+/**
+ * 모든 요소 (*), 모든 before, after 가상 선택자에 border-box를 적용함
+ */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}

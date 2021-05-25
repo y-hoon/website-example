@@ -10,10 +10,16 @@
 *::after {
     box-sizing: border-box;
 }
-
+body {
+    min-width: 1060px;
+}
 /* header */
 .header {
     background: yellow;
+}
+.container {
+    max-width: 1400px;
+    background: red;
 }
 
 /* main */
